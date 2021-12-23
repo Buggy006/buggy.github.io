@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        
-        <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Profile card</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+    <head>   
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Bagath Singh</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&family=Varela+Round&display=swap" rel="stylesheet">    </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <div class="card-header">
-          <div class="avatar">
-            <div class="user-online-indicator"></div>
-            <img
-              src="img/me1.png"
-              alt="user-image"
-            />
-          </div>
-          <div class="profile-name "><h1>Bagath Singh</h1></div>
-          <div class="profile-role">Computer science engineer</div>
-        </div>
-        <div class="card-footer">
-            <div class="social-buttons">
-                <button>
-                    <a href ="https://instagram.com/_.buuggy._" class="fab fa-instagram">
-                    </a>
-                    </button>
-                    <button>
-                    <a href="https://www.linkedin.com/in/bagath-singh-40aba0216/" class="fab fa-linkedin">
-                                            </a>
-                                                                      
-                </button>
-                <button>
-                    <a href="https://github.com/Buggy006/Buggy006" class="fab fa-github"></a>
-                    
-                </button>
-            </div>
-
-        </div>
-        </div>
-        </div>
-        </body>
-        <script
-        src="https://cdnjs.cloudfare.com/ajax/libs/gsap/3.1.1/gsap.min.js">
-    </script>
-            
-
     
-    </head>
+    <section>
+      
+      
+      <div class="card">
+        
+        
+        <div class="profile">
+          <img src="./img/me1.png"/>
+        </div>
+        
+        <div class="card-content">
+
+          <h1 class="neon-text"> Bagath Singh</h1>
+          <h3>I'm a <span class="typing-txt"></span></h3>
+        </div>
+        <div class="links">
+					<a href="https://github.com/buggy006">
+						<div class="icons">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+								<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+							</svg>
+						</div>
+					</a>
+					<a href="https://www.linkedin.com/in/bagath-singh-40aba0216/">
+						<div class="icons">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+								<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+								<rect x="2" y="9" width="4" height="12"></rect>
+								<circle cx="4" cy="4" r="2"></circle>
+							</svg>
+						</div>
+					</a>
+					<a href="mailto:bagath006@gmail.com">
+						<div class="icons">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+								<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+								<polyline points="22,6 12,13 2,6"></polyline>
+							</svg>
+						</div>
+					</a>
+					<a href="https://www.instagram.com/_.buuggy._/">
+						<div class="icons">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+								<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+								<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+								<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+							</svg>
+						</div>
+					</a>
+				</div>
+      </div>
+    </section>
+  </body>
+  <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
+  <script>
+  new TypeIt(".typing-txt", {
+    speed: 100,
+    loop: true,
+  }).go()
+    .type("Software Developer")
+    .delete(19)
+    .type("Designer")
+    .delete(8)
+    .type("Photographer")
+    .delete(12)
+    .type("Editor")
+  </script>
 </html>
